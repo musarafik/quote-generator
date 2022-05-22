@@ -1,8 +1,11 @@
 import {react, useEffect, useState} from "react";
+import QuoteGenerator from "../quote_generator";
 
 const HomePage = () => {
     return(
-        <div><p>home page</p></div>
+        <div>
+            <QuoteGenerator /> 
+        </div>
     );
 }
 
